@@ -11,11 +11,6 @@ hide:
 - Tues @ 12:30pm - 1:50pm (MM 103)
 - Thurs @ 12:30pm - 1:50pm (MM 103)
 
-### Recitations
-
-- Section A (Jacqueline Tsai): Fri @ 9:00am - 09:50am (PH A18B)
-- Section B (Aditya Shrivastava): Fri @ 11:00am - 11:50am (WEH 5415)
-
 ### Prerequisites
 
 15-214/17-214 or 15-213, or equivalent.  The focus of this class is largely
