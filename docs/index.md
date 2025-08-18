@@ -184,8 +184,7 @@ hide:
 </div>
 
 ## Office Hours Calendar
-
-<iframe id="class-calendar" src="https://calendar.google.com/calendar/embed?src=c_e75573df3ad09754cec5f0ec2d863205df66e9cf305d8e1cfd38ed626110f722%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+<iframe id="class-calendar" src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FNew_York&showPrint=0&mode=MONTH&src=Y185Y2EyMWY0NThhNTlmMDhkNDc1ZWFlNjU4ODNkODRiYzBiM2E3ZjMwNDgxYzNlZWFjMzE3NmVkN2ZmNTQzZmFiQGdyb3VwLmNhbGVuZGFyLmdvb2dsZS5jb20&color=%23f6bf26" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
 ## Weekly Schedule
 
