@@ -17,7 +17,7 @@ Students will learn how to use AI-based developer tools across the software deve
 
 ### Prerequisites
 
-There are no prerequisites.
+There are no prerequisites. *(Although we expect experience with Python, setting up development environments, reading documentation, and learning new libraries.)*
 
 ### Readings
 
@@ -41,23 +41,29 @@ For sensitive matters, of course, feel free to contact us individually.
 
 ## Grading
 
-Evaluation will be based on the following approximate distribution: 55%
-assignments, 35% final project, 10% participation.
+Evaluation will be based on the following approximate distribution: 46% in-class activities, 42% course project, and 12% homework essays.
 
 *Note:* Attendance is required for guest lectures. Absences during guest
-lectures (without previously arranged accommodations) will result in a deduction in your overall course grade for participation.
+lectures (without previously arranged accommodations) will result in a deduction in your overall course grade.
 
+The grading scale will be (**TODO):
+
+- X-Y, A+
+- X-Y, A
+- X-Y, A-
+- X-Y, B+
+- X-Y, B
+- X-Y, B-
+- X-Y, C
+- X-Y, D
 
 ## Course Policies
 
 ### Teamwork
 
 Teamwork is an essential part of this course. Teams of 2-3 students
-will be assigned by the instructors to work on the course project as well as in-class activities. Most assignments have a component that is graded for the entire
-group and a component that is graded individually. By default, group assignments
-will receive a single grade, for all individuals.  However, we reserve the right
-to institute peer grading in problematic situations, as detailed in the [Team
-Policy](/teamwork). **TODO
+will be assigned by the instructors to work on the course project as well as in-class activities. Some assignments will be graded as a team, although we reserve the right to override these grades or to institute peer grading in problematic situations, as detailed in the [Team
+Policy](/teamwork).
 
 ### Late Work
 
@@ -103,12 +109,16 @@ first time!
 ### Writing
 
 Describing tradeoffs, justifying decisions, and communicating
-effectively with less technical stakeholders are key learning goals of this
-course. Most homework assignments have a component that requires discussing
-issues in written form or reflecting on experiences. The
+effectively in a software team are key learning goals of this
+course. Assignments will include discussing
+issues in written form, reflecting on experiences, and presenting them to the class. The
 [Student Academic Success Center](https://www.cmu.edu/student-success/programs/communication-support/index.html) offers one-on-one writing help for students, along
 with workshops. The instructors are also happy to provide additional guidance if
-requested. **TODO.
+requested.
+
+### Use of AI
+
+**TODO.(It is the focus of the class, but you are still responsible for what you submit. No AI on reflections.)
 
 ### Academic Honesty and Collaboration
 
