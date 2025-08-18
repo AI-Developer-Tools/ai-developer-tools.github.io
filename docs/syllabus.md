@@ -4,68 +4,66 @@ hide:
     - navigation
 ---
 
+## Course description
+
+Students will learn how to use AI-based developer tools across the software development lifecycle, for example in coding, code reviewing, project management, automated testing, and security. The course will require significant software development practice, both with and without AI tools. Students will use their experiences to analyze the impact of AI tools on software productivity across individuals, teams, and organizations. Students will be expected to code in scripting languages (e.g., Python and JavaScript), set up development environments, read documentation, and learn new libraries and frameworks.
+
 ## Logistics and Communication
 
 ### Lectures
 
-- Tues @ 12:30pm - 1:50pm (MM 103)
-- Thurs @ 12:30pm - 1:50pm (MM 103)
+- Monday @ 11:00am - 12:20pm (PH A18B)
+- Wednesday @ 11:00am - 12:20pm (PH A18B)
 
 ### Prerequisites
 
-15-214/17-214 or 15-213, or equivalent.  The focus of this class is largely
-team-based technical work; the goal of the prerequisites is to ensure students have
-sufficient programming experience to succeed in the course.
+There are no prerequisites. *(Although we expect experience with Python, setting up development environments, reading documentation, and learning new libraries.)*
 
-### Textbook/Readings
+### Readings
 
-We will be reading The Lean Startup, The Mom Test,
-and a selection of online sources. 
+We will be reading a selection of online sources that will be provided. 
 
 ### Communication
 
-The course uses [Canvas](https://canvas.cmu.edu/courses/45409) for homework submission,
-grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://cmu-17-356-s25.slack.com/). Slides, assignments and the schedule
+The course uses [Canvas](https://canvas.cmu.edu/courses/49386) for grading, announcements, and supplementary documents. Discussion and questions will be managed on [Slack](https://aidevelopertools.slack.com/). Slides, assignments and the schedule
 will be posted on this website. We use [GitHub](https://www.github.com) to coordinate group work.  We will provide private GitHub repositories for individuals and groups.
 
-Please use Slack for discussion and questions, including clarifying homework assignments. If you need to write to Prof. Begel and/or Prof. Brown about the class, you must include both faculty members on the message, otherwise we will reject your message and ask you to resend to both of us. We prefer you write us on Slack instead of email.
+Please use Slack for discussion and questions, including clarifying assignments. If you need to write to Prof. Begel and/or Prof. Henley about the class, you must include both faculty members on the message, otherwise we will reject your message and ask you to resend to both of us. We prefer you write us on Slack instead of email.
 
-The instructors and TAs hold weekly office hours. If you cannot make it to office hours, contact us via email (using the course-wide email address,
-unless the issue is sensitive) and we will find an alternative time to meet.
+The instructors hold weekly office hours. If you cannot make it to office hours, contact us via Slack and we will find an alternative time to meet.
 
-If you have a question or concern unsuitable for Slack, contact the
-instructors via: [startups-staff@lists.andrew.cmu.edu](mailto:startups-staff@lists.andrew.cmu.edu). Unless the subject matter
+If you have a question or concern unsuitable for Slack, contact both of the
+instructors via email: [Andrew Begel](mailto:abegel@andrew.cmu.edu) and [Austin Henley](mailto:azhenley@cmu.edu). Unless the subject matter
 is sensitive, all questions will be conveyed to all instructors before being
 answered, so there's no point in emailing just one of us.</p>
-
-Note that the list should be set to accept messages from any CMU email
-address; if your message is held as a non-member posting to a members list,
-don’t worry: we respond to moderation requests very quickly.
 
 For sensitive matters, of course, feel free to contact us individually.
 
 ## Grading
 
-Evaluation will be based on the following approximate distribution: 55%
-assignments, 35% final project, 10% participation.
+Evaluation will be based on the following approximate distribution: 46% in-class activities, 42% course project, and 12% homework essays.
 
 *Note:* Attendance is required for guest lectures. Absences during guest
-lectures (without previously arranged accommodations) will result in a deduction in your overall course grade for participation.
+lectures (without previously arranged accommodations) will result in a deduction in your overall course grade.
 
+The grading scale will be (**TODO):
+
+- X-Y, A+
+- X-Y, A
+- X-Y, A-
+- X-Y, B+
+- X-Y, B
+- X-Y, B-
+- X-Y, C
+- X-Y, D
 
 ## Course Policies
 
 ### Teamwork
 
-Teamwork is an essential part of this course. Teams of 3-5 students
-will be assigned by the instructors and stay together for multiple
-assignments. Most assignments have a component that is graded for the entire
-group and a component that is graded individually. By default, group assignments
-will receive a single grade, for all individuals.  However, we reserve the right
-to institute peer grading in problematic situations, as detailed in the [Team
+Teamwork is an essential part of this course. Teams of 2-3 students
+will be assigned by the instructors to work on the course project as well as in-class activities. Some assignments will be graded as a team, although we reserve the right to override these grades or to institute peer grading in problematic situations, as detailed in the [Team
 Policy](/teamwork).
-
-Please fill out the [Teamwork Survey](https://forms.gle/XNpUYWvuSyyc2L7u9)</a> so we can begin forming groups.
 
 ### Late Work
 
@@ -83,20 +81,19 @@ Research shows that using devices
 for non-class related activities harms both the device user's learning and other
 students' learning as well.  Therefore, in general, we do not allow the use of
 devices during lectures. *However,* if you genuinely use your laptop for
-class-related activities (note-taking, etc), tell us, and we will consider
-an exception.
-You will be required to sit in the back row of the lecture to minimize the impact
+notetaking, tell us, and we will consider
+an exception. You will be required to sit in the back row of the lecture to minimize the impact
 your screen has on others.
 
-Both recitation and lecture activities may involve devices, though, so please
-bring your laptop to both!
+Lecture activities will often involve devices, though, so please
+bring your laptop!
 
 ### Time Management
 
 This is a 12-unit course.  It is our intention to manage it so
 that you spend close to 12 hours a week on the course, on average. In general, 4
-hours/week will be spent in class and recitation, and 8 hours on assignments. A
-key challenge in startup engineering is that there is never enough time to
+hours/week will be spent in class, and 8 hours on assignments. A
+key challenge in software engineering is that there is never enough time to
 implement everything that you want to implement; it is therefore important that
 you practice time management, estimation, and task prioritization.  We would
 rather you make well-justified decisions to not do something than spend tens of
@@ -112,12 +109,16 @@ first time!
 ### Writing
 
 Describing tradeoffs, justifying decisions, and communicating
-effectively with less technical stakeholders are key learning goals of this
-course. Most homework assignments have a component that requires discussing
-issues in written form or reflecting on experiences. The
+effectively in a software team are key learning goals of this
+course. Assignments will include discussing
+issues in written form, reflecting on experiences, and presenting them to the class. The
 [Student Academic Success Center](https://www.cmu.edu/student-success/programs/communication-support/index.html) offers one-on-one writing help for students, along
 with workshops. The instructors are also happy to provide additional guidance if
 requested.
+
+### Use of AI
+
+**TODO.(It is the focus of the class, but you are still responsible for what you submit. No AI on reflections.)
 
 ### Academic Honesty and Collaboration
 
@@ -203,20 +204,13 @@ If you have any question about how this policy applies in a particular
 Note that the instructors respect honesty in these (and indeed most!)
   situations.
 
+## Disability accomodations
+
+If you have a disability and have an accommodations letter from the Disability Resources office, I encourage you to discuss your accommodations and needs with me as early in the semester as possible. I will work with you to ensure that accommodations are provided as appropriate. If you suspect that you may have a disability and would benefit from accommodations but are not yet registered with the Office of Disability Resources, I encourage you to contact them at [access@andrew.cmu.edu](access@andrew.cmu.edu).
+
 ## A Note on Self-Care
 
-All of us benefit from support during times of struggle. You
-are not alone. Besides the instructors, who are here to help you succeed, there
-are many helpful resources available on campus and an important part of the
-college experience is learning how to ask for help. Asking for support sooner
-rather than later is often helpful.
+All of us benefit from support during times of struggle. You are not alone. Besides the instructors, who are here to help you succeed, there are many helpful resources available on campus and an important part of the college experience is learning how to ask for help. Asking for support sooner rather than later is often helpful.
 
-
-If you or anyone you know experiences any academic stress, difficult life
-  events, or feelings like anxiety or depression, we strongly encourage you to
-  seek support. Counseling and Psychological Services (CaPS) is here to help:
-  call 412-268-2922 and [visit their website](https://www.cmu.edu/counseling/). Consider
-  reaching out to a friend, faculty or
-  family member you trust for help getting connected to the support that can
-  help.
+If you or anyone you know experiences any academic stress, difficult life events, or feelings like anxiety or depression, we strongly encourage you to seek support. Counseling and Psychological Services (CaPS) is here to help: call 412-268-2922 and [visit their website](https://www.cmu.edu/counseling/). Consider reaching out to a friend, faculty or family member you trust for help getting connected to the support that can help.
 
