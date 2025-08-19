@@ -67,26 +67,7 @@ Policy](/teamwork).
 
 ### Late Work
 
-The first late assignment will incur a 10% penalty per
-day, and the second will receive no credit. We make exceptions in
-extraordinary circumstances, typically involving either a family or medical
-emergency (ideally, your academic advisor or the Dean of Student Affairs should
-request such exceptions on your behalf). We can make accommodations for travel
-(e.g., for interviews) so long as you request it *in advance*.  Always
-communicate with your team about such issues.
-
-### Devices in Lecture and Recitation
-
-Research shows that using devices
-for non-class related activities harms both the device user's learning and other
-students' learning as well.  Therefore, in general, we do not allow the use of
-devices during lectures. *However,* if you genuinely use your laptop for
-notetaking, tell us, and we will consider
-an exception. You will be required to sit in the back row of the lecture to minimize the impact
-your screen has on others.
-
-Lecture activities will often involve devices, though, so please
-bring your laptop!
+Due to the participatory nature of the course (in-class activities and team projects), late work is generally not accepted. However, we may allow replacing a missed activity on a case by case basis for partial credit.
 
 ### Time Management
 
@@ -118,7 +99,9 @@ requested.
 
 ### Use of AI
 
-**TODO.(It is the focus of the class, but you are still responsible for what you submit. No AI on reflections.)
+The focus of the course is to use AI for all aspects of software development. As such, it is expected that much of the artifacts you produce will come in part from AI and that the process you follow to complete assignments will also be facilitated with AI. 
+
+However, you are still responsible for what you submit and accomplish with AI. We **do not allow AI to be used for the writing of the reflection assignments**. These are to be completed without AI assistance of any kind (based on your experience from using the AI tools).
 
 ### Academic Honesty and Collaboration
 
