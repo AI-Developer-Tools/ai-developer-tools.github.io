@@ -8,6 +8,8 @@ hide:
 
 # 17-316/616: AI Tools for Software Development
 
+Students will learn how to use AI-based developer tools across the software development lifecycle, for example in coding, code reviewing, project management, automated testing, and security. The course will require significant software development practice, both with and without AI tools. Students will use their experiences to analyze the impact of AI tools on software productivity across individuals, teams, and organizations.
+
 ## This Week
 
 <div id="this-week">
