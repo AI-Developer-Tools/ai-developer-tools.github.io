@@ -6,39 +6,27 @@ hide:
 
 ## Course Description
 
-Startup engineering is critical to innovation. The skills required
-to effectively prototype, launch, and scale products are vital to
-engineers everywhere, from fledgling companies founded in dorm rooms
-to local mid-size companies to internal startups from multi-national
-tech giants. However, developing software in a startup environment
-poses unique engineering challenges. These challenges include making
-and justifying foundational architectural and technical decisions
-despite extreme uncertainty; rapidly prototyping and evaluating new
-ideas and features, while building minimum viable products;
-prioritizing engineering effort in severely constrained
-environments; and communicating effectively both within a small
-engineering team and with internal and external non-technical
-stakeholders. This course teaches the skills necessary to engineer
-successfully in a startup environment, through lectures, group
-projects, case study discussions, and guest speakers drawn from
-experienced, practicing startup engineers.
+Students will learn how to use AI-based developer tools across the software development lifecycle, for example in coding, code reviewing, project management, automated testing, and security. The course will require significant software development practice, both with and without AI tools. Students will use their experiences to analyze the impact of AI tools on software productivity across individuals, teams, and organizations. Students will be expected to code in scripting languages (e.g., Python and JavaScript), set up development environments, read documentation, and learn new libraries and frameworks.
 
-## Course Overview
-
-In this course, we will teach you the engineering skills necessary to succeed in the highly-uncertain environment associated with a technology startup.  Our focus in this class is mostly technical, but we will cover some parts of the business side of the startup equation. If you're
-*most* interested in entrepreneurship, we encourage you to consider 15-390, Entrepreneurship for Computer Scientists.
+## Course Structure
 
 This class will consist of:
 
-- **Lectures.** Lectures will cover technical content, and be delivered by the
-  professors or other instructors.
-- **Guest lectures and panels.** We will hear from from practicing software
-  engineers, technical and non-technical startup cofounders, and other
-  individuals with practical expertise.
-- **Recitation.** TAs will lead recitation, which consists of activities designed to help you apply your knowledge practically and prepare for the
-  homework.
-- **Homework assignments.** For the first half of the course, you will practice cloud-oriented development skills that we learn in class. Many of these skills focus things you need to do while working as a team. 
-- **A project.** During this course, you will develop an idea for a startup company from start to finish. You will work in teams to develop the startup's idea, understand its market, develop a prototype implementation, and learn to pitch the idea to recruit collaborators and raise funding. Most of this work will be structured as a series of Agile-style sprints, to simulate as much as possible the real startup experience.  
+- **Mini-lectures.** Lectures will cover technical content and be delivered by the professors or guest lecturers.
+- **In-class programming activities.** We will have pair programming activities and "mob" programming activities. These will be for learning techniques and tools that you will then use for your group project. Each student will lead at least one mob session.
+- **Reflections.** For homework, you will write 500-word essays answering a set of assigned questions about your experience using AI so far.
+- **In-class presentations and discussions.** Based on the reflections, groups will create short presentations, present them to the class, and lead a short discussion.
+- **Group project.** During this course, you will build a web application using AI. The major milestones will be a vibe-coded MVP, requirements, backend implementation, frontend implementation, testing, and deployment.
+- **Team meetings.** We will provide time teams to meet about their project. Participation is mandatory.
+
+The course calendar follows a two-week cycle:
+
+- Monday: Pair programming activity.
+- Wednesday: Team meeting, mini-lecture, and mob programming activity.
+- Homework: Reflection essay.
+- Monday: Team meeting, mini-lecture, and mob programming activity.
+- Wednesday: Presentations and discussions.
+- Project: Two-week sprint milestone.
 
 There will be no exams. The final exam day will be used for final project presentations.
 
