@@ -1,9 +1,9 @@
 # Course Website for CMU 17-316
 ### Authors: Austin Henley, Andrew Begel
 
-## Welcome to Software Engineering for Startups!
+## Welcome to AI Tools for Software Development at Carnegie Mellon University!
 
-[17-316|17-616 Webpage (Syllabus, Course Policies, etc)](https://ai-developer-tools.github.io/)
+[17-316/17-616 Webpage (Syllabus, Course Policies, etc)](https://ai-developer-tools.github.io/)
 ---
 
 This repo was manually forked from 17-356's [website repo](https://github.com/CMU-17-356/cmu-17-356.github.io/).
