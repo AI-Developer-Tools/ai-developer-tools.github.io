@@ -4,7 +4,7 @@ hide:
     - navigation
 ---
 
-## Course description
+## Course Description
 
 Students will learn how to use AI-based developer tools across the software development lifecycle, for example in coding, code reviewing, project management, automated testing, and security. The course will require significant software development practice, both with and without AI tools. Students will use their experiences to analyze the impact of AI tools on software productivity across individuals, teams, and organizations. Students will be expected to code in scripting languages (e.g., Python and JavaScript), set up development environments, read documentation, and learn new libraries and frameworks.
 
@@ -12,8 +12,8 @@ Students will learn how to use AI-based developer tools across the software deve
 
 ### Lectures
 
-- Monday @ 11:00am - 12:20pm (PH A18B)
-- Wednesday @ 11:00am - 12:20pm (PH A18B)
+- Monday @ 11:00am - 12:20pm (PH 226B)
+- Wednesday @ 11:00am - 12:20pm (PH 226B)
 
 ### Prerequisites
 
@@ -46,7 +46,7 @@ Evaluation will be based on the following approximate distribution: 46% in-class
 *Note:* Attendance is required for guest lectures. Absences during guest
 lectures (without previously arranged accommodations) will result in a deduction in your overall course grade.
 
-The grading scale will be (**TODO):
+<!-- The grading scale will be (**TODO):
 
 - X-Y, A+
 - X-Y, A
@@ -55,7 +55,7 @@ The grading scale will be (**TODO):
 - X-Y, B
 - X-Y, B-
 - X-Y, C
-- X-Y, D
+- X-Y, D -->
 
 ## Course Policies
 
@@ -67,7 +67,7 @@ Policy](/teamwork).
 
 ### Late Work
 
-Due to the participatory nature of the course (in-class activities and team projects), late work is generally not accepted. However, we may allow replacing a missed activity on a case by case basis for partial credit.
+Due to the participatory nature of the course (in-class activities and team projects), late work is generally not accepted. However, we may allow replacing a missed activity with additional work on a case by case basis for partial credit.
 
 ### Time Management
 
