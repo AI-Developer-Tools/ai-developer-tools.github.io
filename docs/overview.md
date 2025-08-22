@@ -15,7 +15,7 @@ This class will consist of:
 - **Mini-lectures.** Lectures will cover technical content and be delivered by the professors or guest lecturers.
 - **In-class programming activities.** We will have pair programming activities and "mob" programming activities. These will be for learning techniques and tools that you will then use for your group project. Each student will lead at least one mob session.
 - **Reflections.** For homework, you will write 500-word essays answering a set of assigned questions about your experience using AI so far.
-- **Readings.** **TODO
+- **Readings.** We may assign supplmentary readings from online sources that are relevant to the activities or discussion.
 - **In-class presentations and discussions.** Based on the reflections, groups will create short presentations, present them to the class, and lead a short discussion.
 - **Group project.** During this course, you will build a web application using AI. The major milestones will be a vibe-coded MVP, requirements, backend implementation, frontend implementation, testing, and deployment.
 - **Team meetings.** We will provide time teams to meet about their project. Participation is mandatory.
