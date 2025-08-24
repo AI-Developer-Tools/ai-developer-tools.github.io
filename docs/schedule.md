@@ -20,7 +20,6 @@ hide:
         <th><b>Date</b></th>
         <th><b>Lecture</b></th>
         <th><b>Reading</b></th>
-        <th><b>Recitation</b></th>
         <th><b>Homework Deadline</b></th>
     </thead>
     <tbody>
@@ -45,39 +44,6 @@ hide:
                     </a>
                 {% endif %}
             </span></td>
-
-            {% if schedule_day.recitation.name != "" %}
-                <td rowspan="5"><span class="schedule-recitation">
-                    <b>{{schedule_day.recitation.name}}</b>
-                    <br/>
-
-                    {% if schedule_day.recitation.slides != "" %}
-                    <a class="label label-aqua" href="{{schedule_day.recitation.slides}}" target="_blank">
-                        <span class="material-symbols-outlined">slideshow</span>Slides
-                    </a>
-                    {% endif %}
-
-                    {% if schedule_day.recitation.handout != "" %}
-                    <a class="label label-aqua" href="{{schedule_day.recitation.handout}}">
-                        <span class="material-symbols-outlined">description</span>Handout
-                    </a>
-                    {% endif %}
-
-                    {% if schedule_day.recitation.quiz != "" %}
-                    <a class="label label-aqua" href="{{schedule_day.recitation.quiz}}" target="_blank">
-                        <span class="material-symbols-outlined">equalizer</span>Quiz
-                    </a>
-                    {% endif %}
-                </span></td>
-                {% set ns.recitation_days_left = 4 %}
-            {% else %}
-                {% if ns.recitation_days_left > 0 %}
-                    {% set ns.recitation_days_left = ns.recitation_days_left - 1 %}
-                {% else %}
-                    <td><span class="schedule-recitation"></span></td>
-                {% endif %}
-            {% endif %}
-
 
             {% if schedule_day.homework.name != "" %}
                 <td rowspan="{{schedule_day.homework.numDays}}"><span class="schedule-homework">
