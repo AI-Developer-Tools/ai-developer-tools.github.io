@@ -6,7 +6,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Introduction to Vibe Coding'
   reading:
     link: ''
     name: ''
@@ -42,7 +42,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Vibe Coding on an Existing Codebase'
   reading:
     link: ''
     name: ''
@@ -96,7 +96,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'LABOR DAY - No Class'
   reading:
     link: ''
     name: ''
@@ -132,7 +132,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Vibe Coding Discussion'
   reading:
     link: ''
     name: ''
@@ -186,7 +186,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'User Discovery Lab'
   reading:
     link: ''
     name: ''
@@ -222,7 +222,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Creating Effective User Stories'
   reading:
     link: ''
     name: ''
@@ -276,7 +276,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Creating Dev Specs'
   reading:
     link: ''
     name: ''
@@ -312,7 +312,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'User Specification Reflection'
   reading:
     link: ''
     name: ''
@@ -366,7 +366,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Frontend Coding Lab'
   reading:
     link: ''
     name: ''
@@ -402,7 +402,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Turning Wireframes into Code'
   reading:
     link: ''
     name: ''
@@ -456,7 +456,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Creating UI Behaviors'
   reading:
     link: ''
     name: ''
@@ -492,7 +492,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Frontend Coding Reflection'
   reading:
     link: ''
     name: ''
@@ -546,7 +546,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'FALL BREAK - No class'
   reading:
     link: ''
     name: ''
@@ -582,7 +582,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'FALL BREAK - No class'
   reading:
     link: ''
     name: ''
@@ -636,7 +636,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Backend Coding Lab'
   reading:
     link: ''
     name: ''
@@ -672,7 +672,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Backend Coding TBD'
   reading:
     link: ''
     name: ''
@@ -726,7 +726,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Backend Coding TBD'
   reading:
     link: ''
     name: ''
@@ -762,7 +762,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Backend Coding Discussion'
   reading:
     link: ''
     name: ''
@@ -816,7 +816,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Testing Lab'
   reading:
     link: ''
     name: ''
@@ -852,7 +852,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Testing TBD'
   reading:
     link: ''
     name: ''
@@ -906,7 +906,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Testing TBD'
   reading:
     link: ''
     name: ''
@@ -942,7 +942,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Testing Discussion'
   reading:
     link: ''
     name: ''
@@ -996,7 +996,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Deployment Lab'
   reading:
     link: ''
     name: ''
@@ -1032,7 +1032,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Deployment TBD'
   reading:
     link: ''
     name: ''
@@ -1086,7 +1086,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Guest Lecture - TBD'
   reading:
     link: ''
     name: ''
@@ -1122,7 +1122,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Deployment Reflection'
   reading:
     link: ''
     name: ''
@@ -1212,7 +1212,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'DAY BEFORE THANKSGIVING - No class'
   reading:
     link: ''
     name: ''
@@ -1266,7 +1266,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Project Presentations'
   reading:
     link: ''
     name: ''
@@ -1302,7 +1302,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Class Wrapup'
   reading:
     link: ''
     name: ''
@@ -1331,132 +1331,6 @@
     slides: ''
 
 - date: Fri Dec 05
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Mon Dec 08
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Tue Dec 09
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Wed Dec 10
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Thu Dec 11
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Fri Dec 12
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Mon Dec 15
-  homework:
-    deadline: ''
-    link: ''
-    name: ''
-    numDays: 0
-  lecture:
-    link: ''
-    name: ''
-  reading:
-    link: ''
-    name: ''
-  recitation:
-    handout: ''
-    name: ''
-    quiz: ''
-    slides: ''
-
-- date: Tue Dec 16
   homework:
     deadline: ''
     link: ''
