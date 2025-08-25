@@ -1,12 +1,17 @@
-last_homework: null
+last_homework:
+  date: Mon Aug 25
+  deadline: September 2, 2024 11:59pm
+  link: ''
+  name: Vibe Coding Reflection
+  numDays: 7
 
 lectures:
-- date: Mon Aug 25
-  link: ''
-  name: Introduction to Vibe Coding
 - date: Wed Aug 27
   link: ''
   name: Vibe Coding on an Existing Codebase
+- date: Mon Sep 01
+  link: ''
+  name: LABOR DAY - No Class
 
 next_homework: null
 
