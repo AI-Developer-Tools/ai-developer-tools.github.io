@@ -1,9 +1,9 @@
 - date: Mon Aug 25
   homework:
-    deadline: ''
+    deadline: 'September 2, 2024 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Vibe Coding Reflection'
+    numDays: 7
   lecture:
     link: ''
     name: 'Introduction to Vibe Coding'
@@ -180,10 +180,10 @@
 
 - date: Mon Sep 08
   homework:
-    deadline: ''
+    deadline: 'September 16, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'User Discovery Reflection'
+    numDays: 7
   lecture:
     link: ''
     name: 'User Discovery Lab'
@@ -360,10 +360,10 @@
 
 - date: Mon Sep 22
   homework:
-    deadline: ''
+    deadline: 'September 30, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Frontend Coding Reflection'
+    numDays: 7
   lecture:
     link: ''
     name: 'Frontend Coding Lab'
@@ -630,10 +630,10 @@
 
 - date: Mon Oct 13
   homework:
-    deadline: ''
+    deadline: 'October 21, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Backend Coding Reflection'
+    numDays: 7
   lecture:
     link: ''
     name: 'Backend Coding Lab'
@@ -810,10 +810,10 @@
 
 - date: Mon Oct 27
   homework:
-    deadline: ''
+    deadline: 'November 4, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Testing Reflection'
+    numDays: 7
   lecture:
     link: ''
     name: 'Testing Lab'
@@ -990,10 +990,10 @@
 
 - date: Mon Nov 10
   homework:
-    deadline: ''
+    deadline: 'November 18, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Deployment Reflection'
+    numDays: 7
   lecture:
     link: ''
     name: 'Deployment Lab'

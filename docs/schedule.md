@@ -20,7 +20,7 @@ hide:
         <th><b>Date</b></th>
         <th><b>Lecture</b></th>
         <th><b>Reading</b></th>
-        <th><b>Homework Deadline</b></th>
+        <th><b>Homework</b></th>
     </thead>
     <tbody>
         {% for schedule_day in schedule %}
