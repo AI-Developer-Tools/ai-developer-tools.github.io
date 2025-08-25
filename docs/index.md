@@ -18,7 +18,7 @@ Students will learn how to use AI-based developer tools across the software deve
 
 <div class="card">
     <div class="header">
-        Lectures & Readings
+        Class & Readings
     </div>
     <div class="content">
         {% if this_week.lectures %}
@@ -171,7 +171,7 @@ Students will learn how to use AI-based developer tools across the software deve
 <table>
     <thead>
         <th><b>Date</b></th>
-        <th><b>Lecture</b></th>
+        <th><b>Class</b></th>
         <th><b>Reading</b></th>
         <th><b>Homework</b></th>
     </thead>
