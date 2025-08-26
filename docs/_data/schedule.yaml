@@ -5,7 +5,7 @@
     name: 'Vibe Coding Reflection'
     numDays: 7
   lecture:
-    link: ''
+    link: 'assets/pdfs/01-intro-and-vibe-coding-activity.pdf'
     name: 'Introduction to Vibe Coding'
   reading:
     link: ''
