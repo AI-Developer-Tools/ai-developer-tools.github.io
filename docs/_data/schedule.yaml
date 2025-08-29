@@ -23,7 +23,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 
     name: ''
   reading:
     link: ''
@@ -41,7 +41,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/02-brownfield-vibe-coding-activity.pdf'
     name: 'Vibe Coding on an Existing Codebase'
   reading:
     link: ''
