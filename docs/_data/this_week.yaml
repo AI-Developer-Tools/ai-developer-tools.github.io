@@ -6,13 +6,18 @@ last_homework:
   numDays: 7
 
 lectures:
-- date: Mon Sep 01
-  link: ''
-  name: LABOR DAY - No Class
 - date: Wed Sep 03
   link: ''
   name: Vibe Coding Discussion
+- date: Mon Sep 08
+  link: ''
+  name: User Discovery Lab
 
-next_homework: null
+next_homework:
+  date: Mon Sep 08
+  deadline: September 16, 2025 11:59pm
+  link: ''
+  name: User Discovery Reflection
+  numDays: 7
 
 recitation: null
