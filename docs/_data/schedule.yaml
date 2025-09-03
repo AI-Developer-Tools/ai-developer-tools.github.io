@@ -131,7 +131,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/03-discussion-vibe-coding.pdf'
     name: 'Vibe Coding Discussion'
   reading:
     link: ''
