@@ -6,12 +6,12 @@ last_homework:
   numDays: 7
 
 lectures:
-- date: Wed Sep 03
-  link: ''
-  name: Vibe Coding Discussion
 - date: Mon Sep 08
   link: ''
   name: User Discovery Lab
+- date: Wed Sep 10
+  link: ''
+  name: Creating Effective User Stories
 
 next_homework:
   date: Mon Sep 08
