@@ -181,11 +181,11 @@
 - date: Mon Sep 08
   homework:
     deadline: 'September 16, 2025 11:59pm'
-    link: ''
+    link: 'assignments/HW2'
     name: 'User Discovery Reflection'
     numDays: 7
   lecture:
-    link: ''
+    link: 'assets/pdfs/04-user-discovery.pdf'
     name: 'User Discovery Lab'
   reading:
     link: ''

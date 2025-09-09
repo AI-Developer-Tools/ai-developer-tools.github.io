@@ -60,6 +60,7 @@ nav:
   - Staff: staff.md
   - Assignments:  # assignments/index.md # Dummy home page; remove once we start adding assignments below
       - Reflection 1: assignments/HW1.md
+      - Reflection 2: assignments/HW2.md
   #    - Homework 2: 'https://github.com/CMU-17-356/cmu-17-356.github.io/raw/refs/heads/main/docs/assignments/hw2.pdf'
   #    - Homework 3: assignments/hw3-25.md
   #    - Homework 4: assignments/hw4-25.md
