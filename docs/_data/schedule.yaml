@@ -221,7 +221,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/05-user-stories.pdf'
     name: 'Creating Effective User Stories'
   reading:
     link: ''
