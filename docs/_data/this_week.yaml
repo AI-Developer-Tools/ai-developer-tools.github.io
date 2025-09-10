@@ -6,12 +6,12 @@ last_homework:
   numDays: 7
 
 lectures:
-- date: Wed Sep 10
-  link: ''
-  name: Creating Effective User Stories
 - date: Mon Sep 15
   link: ''
   name: Creating Dev Specs
+- date: Wed Sep 17
+  link: ''
+  name: User Specification Reflection
 
 next_homework: null
 
