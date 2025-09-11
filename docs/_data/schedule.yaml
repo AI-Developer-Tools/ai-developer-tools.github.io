@@ -1,6 +1,6 @@
 - date: Mon Aug 25
   homework:
-    deadline: 'September 2, 2025 11:59pm'
+    deadline: 'Tuesday, September 2, 2025 11:59pm'
     link: 'assignments/HW1'
     name: 'Vibe Coding Reflection'
     numDays: 7
@@ -230,7 +230,7 @@
 
 - date: Mon Sep 08
   homework:
-    deadline: 'September 16, 2025 11:59pm'
+    deadline: 'Tuesday, September 16, 2025 11:59pm'
     link: 'assignments/HW2'
     name: 'User Discovery Reflection'
     numDays: 7
@@ -279,7 +279,7 @@
     deadline: 'Wednesday, September 17, 2025 11:59pm'
     link: 'project/p1'
     name: 'P1: Requirements Engineering'
-    numDays: 6
+    numDays: 5
   lecture:
     link: 'assets/pdfs/05-user-stories.pdf'
     name: 'Creating Effective User Stories'
@@ -407,10 +407,10 @@
     quiz: ''
     slides: ''
   project:
-    deadline: ''
+    deadline: 'Wednesday, September 24, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P2: Development Specifications'
+    numDays: 6
 
 - date: Thu Sep 18
   homework:
@@ -460,10 +460,10 @@
 
 - date: Mon Sep 22
   homework:
-    deadline: 'September 30, 2025 11:59pm'
+    deadline: 'Tuesday September 30, 2025 11:59pm'
     link: ''
     name: 'Frontend Coding Reflection'
-    numDays: 7
+    numDays: 6
   lecture:
     link: ''
     name: 'Frontend Coding Lab'
@@ -480,6 +480,7 @@
     link: ''
     name: ''
     numDays: 0
+
 
 - date: Tue Sep 23
   homework:
@@ -527,6 +528,7 @@
     name: ''
     numDays: 0
 
+
 - date: Thu Sep 25
   homework:
     deadline: ''
@@ -545,10 +547,11 @@
     quiz: ''
     slides: ''
   project:
-    deadline: ''
+    deadline: 'Wednesday, October 1, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P3: Front End Development'
+    numDays: 5
+  
 
 - date: Fri Sep 26
   homework:
@@ -690,13 +693,13 @@
 
 - date: Mon Oct 06
   homework:
-    deadline: ''
+    deadline: 'Tuesday October 21, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'Backend Coding Reflection'
+    numDays: 12
   lecture:
     link: ''
-    name: 'FALL BREAK - No class'
+    name: 'Backend Coding Lab'
   reading:
     link: ''
     name: ''
@@ -706,10 +709,10 @@
     quiz: ''
     slides: ''
   project:
-    deadline: ''
+    deadline: 'Wednesday, October 22, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P4: Backend Development'
+    numDays: 13
 
 - date: Tue Oct 07
   homework:
@@ -742,7 +745,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'FALL BREAK - No class'
+    name: 'Backend Coding TBD'
   reading:
     link: ''
     name: ''
@@ -805,13 +808,13 @@
 
 - date: Mon Oct 13
   homework:
-    deadline: 'October 21, 2025 11:59pm'
+    deadline: ''
     link: ''
-    name: 'Backend Coding Reflection'
-    numDays: 7
+    name: ''
+    numDays: 0
   lecture:
     link: ''
-    name: 'Backend Coding Lab'
+    name: 'FALL BREAK - No class'
   reading:
     link: ''
     name: ''
@@ -857,7 +860,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Backend Coding TBD'
+    name: 'FALL BREAK - No class'
   reading:
     link: ''
     name: ''
@@ -1035,7 +1038,7 @@
 
 - date: Mon Oct 27
   homework:
-    deadline: 'November 4, 2025 11:59pm'
+    deadline: 'Tuesday November 4, 2025 11:59pm'
     link: ''
     name: 'Testing Reflection'
     numDays: 7
@@ -1051,10 +1054,10 @@
     quiz: ''
     slides: ''
   project:
-    deadline: ''
+    deadline: 'Wednesday November 5, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P5: Test Specification'
+    numDays: 8
 
 - date: Tue Oct 28
   homework:
@@ -1281,10 +1284,10 @@
     quiz: ''
     slides: ''
   project:
-    deadline: ''
+    deadline: 'Wednesday, November 19, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P6: Deployment + Synthetic Testing'
+    numDays: 8
 
 - date: Tue Nov 11
   homework:
@@ -1396,10 +1399,10 @@
     quiz: ''
     slides: ''
   project:
-    deadline: ''
+    deadline: 'Monday, November 24, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P7: Testing with Real Users'
+    numDays: 6
 
 - date: Tue Nov 18
   homework:
@@ -1511,10 +1514,10 @@
     quiz: ''
     slides: ''
   project:
-    deadline: ''
+    deadline: 'Wednesday, December 3, 2025 11:59pm'
     link: ''
-    name: ''
-    numDays: 0
+    name: 'P8: Presentation + Postmortem'
+    numDays: 8
 
 - date: Tue Nov 25
   homework:
@@ -1616,7 +1619,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Project Presentations'
+    name: 'Class Wrapup'
   reading:
     link: ''
     name: ''
@@ -1662,7 +1665,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Class Wrapup'
+    name: 'Project Presentations'
   reading:
     link: ''
     name: ''
