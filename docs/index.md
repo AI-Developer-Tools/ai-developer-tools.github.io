@@ -166,7 +166,7 @@ Students will learn how to use AI-based developer tools across the software deve
 {%- set schedule = extra.schedule -%}
 
 {% if schedule %}
-{% set ns = namespace(recitation_days_left=0, homework_days_left=0) %}
+{% set ns = namespace(recitation_days_left=0, homework_days_left=0, project_days_left=0) %}
 
 <table>
     <thead>
@@ -174,6 +174,7 @@ Students will learn how to use AI-based developer tools across the software deve
         <th><b>Class</b></th>
         <th><b>Reading</b></th>
         <th><b>Homework</b></th>
+        <th><b>Project</b></th>
     </thead>
     <tbody>
         {% for schedule_day in schedule %}
@@ -228,6 +229,28 @@ Students will learn how to use AI-based developer tools across the software deve
                     {% set ns.homework_days_left = ns.homework_days_left - 1 %}
                 {% else %}
                     <td><span class="schedule-homework"></span></td>
+                {% endif %}
+            {% endif %}
+
+            {% if schedule_day.project.name != "" %}
+                <td rowspan="{{schedule_day.project.numDays}}"><span class="schedule-project">
+                    <b>{{schedule_day.project.name}}</b>
+                    <br/>
+                    {{schedule_day.project.deadline}}
+                    <br/>
+
+                    {% if schedule_day.project.link != "" %}
+                    <a class="label label-red" href="{{schedule_day.project.link}}">
+                        <span class="material-symbols-outlined">description</span>Instructions
+                    </a>
+                    {% endif %}
+                </span></td>
+                {% set ns.project_days_left = schedule_day.project.numDays - 1 %}
+            {% else %}
+                {% if ns.project_days_left > 0 %}
+                    {% set ns.project_days_left = ns.project_days_left - 1 %}
+                {% else %}
+                    <td><span class="schedule-project"></span></td>
                 {% endif %}
             {% endif %}
         </tr>
