@@ -45,6 +45,12 @@ for single_date in daterange(start_date, end_date):
             "deadline": "",
             "link": "",
             "numDays": 0
+        },
+        "project": {
+            "deadline": '',
+            "link": '',
+            "name": '',
+            "numDays": 0
         }
     })
 
