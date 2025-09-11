@@ -1,9 +1,9 @@
 last_homework:
-  date: Mon Sep 08
-  deadline: September 16, 2025 11:59pm
-  link: assignments/HW2
-  name: User Discovery Reflection
-  numDays: 7
+  date: Wed Sep 10
+  deadline: Wednesday, September 17, 2025 11:59pm
+  link: project/p1
+  name: 'P1: Requirements Engineering'
+  numDays: 6
 
 lectures:
 - date: Mon Sep 15
