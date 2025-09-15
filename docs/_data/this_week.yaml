@@ -6,13 +6,18 @@ last_homework:
   numDays: 5
 
 lectures:
-- date: Mon Sep 15
-  link: ''
-  name: Creating Dev Specs
 - date: Wed Sep 17
   link: ''
   name: User Specification Reflection
+- date: Mon Sep 22
+  link: ''
+  name: Frontend Coding Lab
 
-next_homework: null
+next_homework:
+  date: Mon Sep 22
+  deadline: Tuesday September 30, 2025 11:59pm
+  link: ''
+  name: Frontend Coding Reflection
+  numDays: 6
 
 recitation: null
