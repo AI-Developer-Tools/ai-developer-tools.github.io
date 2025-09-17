@@ -350,11 +350,11 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/06-development-specs.pdf'
     name: 'Creating Dev Specs'
   reading:
-    link: ''
-    name: ''
+    link: 'assets/pdfs/dev-spec-guidelines.pdf'
+    name: 'Development Spec Guidelines'
   recitation:
     handout: ''
     name: ''
