@@ -396,8 +396,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'User Specification Reflection'
+    link: 'assets/pdfs/07-requirements-engineering-discussion.pdf'
+    name: 'Requirements Engineering Reflection'
   reading:
     link: ''
     name: ''
