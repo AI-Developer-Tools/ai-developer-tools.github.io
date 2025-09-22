@@ -1,23 +1,18 @@
 last_homework:
-  date: Wed Sep 10
-  deadline: Wednesday, September 17, 2025 11:59pm
-  link: project/p1
-  name: 'P1: Requirements Engineering'
-  numDays: 5
-
-lectures:
-- date: Mon Sep 22
-  link: ''
-  name: Frontend Coding Lab
-- date: Wed Sep 24
-  link: ''
-  name: Turning Wireframes into Code
-
-next_homework:
   date: Mon Sep 22
   deadline: Tuesday September 30, 2025 11:59pm
   link: ''
   name: Frontend Coding Reflection
   numDays: 6
+
+lectures:
+- date: Wed Sep 24
+  link: ''
+  name: Turning Wireframes into Code
+- date: Mon Sep 29
+  link: ''
+  name: Creating UI Behaviors
+
+next_homework: null
 
 recitation: null
