@@ -465,8 +465,8 @@
     name: 'Frontend Coding Reflection'
     numDays: 6
   lecture:
-    link: ''
-    name: 'Frontend Coding Lab'
+    link: 'assets/pdfs/08-front-end-dev.pdf'
+    name: 'Front End Development'
   reading:
     link: ''
     name: ''
@@ -515,8 +515,8 @@
     link: ''
     name: 'Turning Wireframes into Code'
   reading:
-    link: ''
-    name: ''
+    link: 'https://arxiv.org/abs/2509.12491'
+    name: 'Research Paper: Good Vibrations? A Qualitative Study of Co-Creation, Communication, Flow, and Trust in Vibe Coding'
   recitation:
     handout: ''
     name: ''
