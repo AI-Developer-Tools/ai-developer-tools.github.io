@@ -512,11 +512,11 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Turning Wireframes into Code'
+    link: 'assets/pdfs/09-front-end-dev.pdf'
+    name: 'Creating the Front End UI Code'
   reading:
-    link: 'https://arxiv.org/abs/2509.12491'
-    name: 'Research Paper: Good Vibrations? A Qualitative Study of Co-Creation, Communication, Flow, and Trust in Vibe Coding'
+    link: ''
+    name: ''
   recitation:
     handout: ''
     name: ''
@@ -586,8 +586,8 @@
     link: ''
     name: 'Creating UI Behaviors'
   reading:
-    link: ''
-    name: ''
+    link: 'https://arxiv.org/abs/2509.12491'
+    name: 'Research Paper: Good Vibrations? A Qualitative Study of Co-Creation, Communication, Flow, and Trust in Vibe Coding'
   recitation:
     handout: ''
     name: ''
