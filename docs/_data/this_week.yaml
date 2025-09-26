@@ -6,16 +6,16 @@ last_homework:
   numDays: 6
 
 lectures:
-- date: Wed Sep 24
+- date: Mon Sep 29
   link: ''
-  name: Turning Wireframes into Code
+  name: Creating UI Behaviors
   reading:
     link: https://arxiv.org/abs/2509.12491
     name: 'Research Paper: Good Vibrations? A Qualitative Study of Co-Creation, Communication,
       Flow, and Trust in Vibe Coding'
-- date: Mon Sep 29
+- date: Wed Oct 01
   link: ''
-  name: Creating UI Behaviors
+  name: Frontend Coding Reflection
 
 next_homework: null
 
