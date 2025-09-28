@@ -1,5 +1,5 @@
 ---
-title: HW1 Vibe Coding Reflection Essay
+title: HW2 Requirements Engineering Reflection Essay
 ---
 
 # Homework 2: Requirements Engineering Reflection Essay
