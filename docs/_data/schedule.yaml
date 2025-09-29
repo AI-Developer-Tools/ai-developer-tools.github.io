@@ -583,7 +583,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/10-activating-the-ui.pdf'
     name: 'Creating UI Behaviors'
   reading:
     link: 'https://arxiv.org/abs/2509.12491'
