@@ -461,7 +461,7 @@
 - date: Mon Sep 22
   homework:
     deadline: 'Tuesday September 30, 2025 11:59pm'
-    link: 'assignements/HW3'
+    link: 'assignments/HW3'
     name: 'Frontend Coding Reflection'
     numDays: 6
   lecture:
