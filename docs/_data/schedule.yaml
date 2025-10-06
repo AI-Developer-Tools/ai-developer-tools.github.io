@@ -694,7 +694,7 @@
 - date: Mon Oct 06
   homework:
     deadline: 'Tuesday October 21, 2025 11:59pm'
-    link: ''
+    link: 'assignments/HW4'
     name: 'Backend Coding Reflection'
     numDays: 12
   lecture:
@@ -710,7 +710,7 @@
     slides: ''
   project:
     deadline: 'Wednesday, October 22, 2025 11:59pm'
-    link: ''
+    link: 'project/p4'
     name: 'P4: Backend Development'
     numDays: 13
 
