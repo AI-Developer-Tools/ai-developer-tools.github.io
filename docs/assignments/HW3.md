@@ -2,7 +2,7 @@
 title: HW3 Frontend Development Reflection Essay
 ---
 
-# Homework 2: Frontend Development Reflection Essay
+# Homework 3: Frontend Development Reflection Essay
 
 <p style="text-align: center;">
 100 points<br/>
@@ -24,7 +24,7 @@ Reflect on your experience doing user discovery, creating user stories, or creat
 
 ### The task
 
-Write a 500-word essay on a reflection question of your choice from [this Google Sheet](https://docs.google.com/spreadsheets/d/1jbFIpRPp2l5WDNzO1ejfoXdoOZZTX9_hgKl2eSKrtjw/edit?usp=sharing). Up to 3 class members may choose the same reflection question. Write your name down in the Sheet next to the question you have chosen.
+Write a 400-550 word essay on a reflection question of your choice from [this Google Sheet](https://docs.google.com/spreadsheets/d/1jbFIpRPp2l5WDNzO1ejfoXdoOZZTX9_hgKl2eSKrtjw/edit?usp=sharing). Up to 3 class members may choose the same reflection question. Write your name down in the Sheet next to the question you have chosen.
 
 Write your essay. 
 

@@ -1,103 +1,56 @@
 ---
-title: HW4 Sprint 2
+title: HW4 Backend Development Reflection Essay
 ---
 
-
-# Homework 4: Sprint 2
-
+# Homework 4: Backend Development Reflection Essay
 
 <p style="text-align: center;">
 100 points<br/>
 
-Due on Gradescope Thursday, February 29, 2023 11:59pm<br/>
+Due on Gradescope Tuesday, October 21, 11:59pm<br/>
 
-This homework is to be done and submitted as a team.<br/>
-
-A portion of this assignment will be graded for you individually and the other
-portion will be graded for your team as a whole.<br/>
+This homework is to be done individually.<br/>
 </p>
 
-## Learning Goals
+## Submission
 
-In completing this assignment, you will develop the skills needed to:
+Submit [this assignment](https://www.gradescope.com/courses/1088015/assignments/6596222) as a PDF file to Gradescope.
 
-- Use appropriate technology to build your MVP.
-- Select and measure appropriate indicators that will help you evaluate viability.
-- Present your software to stakeholders.
+If you prepare the response in some other software (like Tex, Word, or Google Docs), please export as PDF before submitting.
 
-## Homework Tasks
+### Learning Goals
 
-In this homework, you will conduct your second two-week sprint with your team to
-complete a presentable, Minimal Viable Product (MVP) for the Dronut Application.
+Reflect on your experience doing user discovery, creating user stories, or create development specifications using LLMs.
 
-## MVP Deployment
+### The task
 
-Your team should spend the majority of this sprint finishing your MVP and
-deploying it on [Render](https://docs.render.com/).
+Write a 400-550 word essay on a reflection question of your choice from [this Google Sheet](https://bit.ly/reflection-week-7). Up to 3 class members may choose the same reflection question. Write your name down in the Sheet next to the question you have chosen.
 
-## Checkpoint Meetings (Feb 26 - Feb 27)
+Write your essay. 
 
-During the week of **Feb 26**, we require that every team visit during a series
-of open sessions/hours so the TAs can take a look at your team's work. This is
-to make sure that all teams make constant steady progress towards their MVP.
+Good essays have concrete examples, e.g., it did *x* but I expected *y* in the context of *z*. Bad essays are vague and employ generic sentiments, like "I like it!", or "It’s helpful.". 
 
-Sign up for your time slot on this [Google Sheet](https://docs.google.com/spreadsheets/d/1TjV-x8BfoNkzfEbpw2v21gYV7Noj5ei7RGlG9qJcfe0/edit?usp=sharing).
+Be sure to write down your name, Andrew ID, and the reflection question that you chose to answer at the top of the page.  
 
-When you visit, please show the following:
+### AI Constraints
 
-1. **Prototyped frontend.** Have some version of your frontend ready to show,
-   whether that be a simple static layout of your app’s elements, or a fully
-   dynamic and interactive frontend application.
-1. **Functional backend.** Have a (near) complete set of backend endpoints to
-   demonstrate.
-1. **List of remaining tasks.** Please walk the TAs through what your team still
-   needs to complete for the MVP deliverable.
+You should not use any AI, GenAI, or LLM to write this essay. You *may* use any tool you wish to **proofread** your essay for grammar, but do not use any tool that creates or changes the meaning of what you have written. 
 
-It is not necessary for all team members to come to the check-in; however,
-having members for each component of the project (i.e., frontend, backend)
-present will help you explain your work to the TAs and receive better feedback.
+**Note**: You will be on the hook for understanding and defending the opinions you write in these reflection essays during in-class activities. You must understand and buy into the contents of your essay at the time you turn it in. 
 
-The objective of these meetings is not to assess or determine grades, but rather
-to help students ship a great MVP on time. As such, please visit us during these
-sessions and/or during Office Hours as soon as possible to make sure your team
-is on track!
+## Grading
 
-## Demonstration of Individual Actions
+This homework is worth 100 points.
 
-All team members should be making pull requests (PRs) when adding/pushing new
-code. As you progress toward your MVP, **every individual team member** should
-have a
+### Rubric
 
-- Pull Request merged with at least one +1 from a reviewer.
-- Add at least one constructive comment on another team member’s Pull Request.
+You will receive points for accomplishing the following:
 
-We will visit your GitHub repo to check that these have occurred with timestamps
-prior to the assignment deadline of Feb 28. If GitHub fails to show any evidence
-of your work, you will lose points from the individual portion of your grade.
+1. Name, Andrew ID, and reflection question are written at the top of the page: 5 pts.
+1. Essay is between 400-550 words. 10 pts.
+1. Essay answers your reflection question. 20 pts.
+1. Essay contains *meaningful* reflections that derive from your personal experience in this class. 65 pts. 
 
-## Final Team Deliverables
 
-1. **A short (approximately 1 page) writeup.**
-    -  Document all changes you have made since your initial plan (backlog)
-       regarding the *Minimal* feature set you’ve implemented, with a brief
-       justification. If you made no changes, simply say so in one sentence.
-    -  Document all of the ways your MVP allows you to assess or measure
-       *Viability* (e.g., via collecting of metrics).
 
-2. **Video MVP Walkthrough** - Your team should submit a video walkthrough of
-   your prototype:
-    - Each team member should present a single user story (e.g., selecting
-      donuts from the menu, completing a transaction, fulfilling an order,
-      marking it for delivery, etc).
-    - Your walkthrough should focus on explaining how the software is to be used
-      from a user-perspective. Take for example,
-      [this video walkthrough of how to use Gmail](https://www.youtube.com/watch?v=9JiOOda0n3w),
-      or the [Dropbox video](https://youtu.be/7QmCUDHpNzE) we discussed in class.
-    - There are a lot of tools which you can use to prepare your demo video.
-      Choose the one you’re most comfortable with. We recommend [Loom](https://www.loom.com/),
-      a Chrome extension which allows you to easily record a screen grab along
-      with narration. Another good one is Quicktime Player if you work on a MacBook.
-    - Once you've created your video, upload it to YouTube and make a note of
-      the URL.
 
-Submit **both** your writeup and URL to your walkthrough video to [Gradescope](https://www.gradescope.com/courses/704199/assignments/4060816).
