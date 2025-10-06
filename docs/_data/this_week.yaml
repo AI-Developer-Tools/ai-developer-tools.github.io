@@ -1,23 +1,18 @@
 last_homework:
-  date: Mon Sep 22
-  deadline: Tuesday September 30, 2025 11:59pm
-  link: assignments/HW3
-  name: Frontend Coding Reflection
-  numDays: 6
-
-lectures:
-- date: Wed Oct 01
-  link: ''
-  name: Frontend Coding Reflection
-- date: Mon Oct 06
-  link: ''
-  name: Backend Coding Lab
-
-next_homework:
   date: Mon Oct 06
   deadline: Tuesday October 21, 2025 11:59pm
   link: ''
   name: Backend Coding Reflection
   numDays: 12
+
+lectures:
+- date: Wed Oct 08
+  link: ''
+  name: Backend Coding TBD
+- date: Mon Oct 13
+  link: ''
+  name: FALL BREAK - No class
+
+next_homework: null
 
 recitation: null
