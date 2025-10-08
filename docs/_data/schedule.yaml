@@ -698,7 +698,7 @@
     name: 'Backend Coding Reflection'
     numDays: 12
   lecture:
-    link: ''
+    link: 'assets/pdfs/12-backend-development.pdf'
     name: 'Backend Coding Lab'
   reading:
     link: ''
