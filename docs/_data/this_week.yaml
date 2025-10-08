@@ -6,10 +6,10 @@ last_homework:
   numDays: 12
 
 lectures:
-- date: Wed Oct 08
-  link: ''
-  name: Backend Coding TBD
 - date: Mon Oct 13
+  link: ''
+  name: FALL BREAK - No class
+- date: Wed Oct 15
   link: ''
   name: FALL BREAK - No class
 
