@@ -6,12 +6,12 @@ last_homework:
   numDays: 12
 
 lectures:
-- date: Mon Oct 13
-  link: ''
-  name: FALL BREAK - No class
 - date: Wed Oct 15
   link: ''
   name: FALL BREAK - No class
+- date: Mon Oct 20
+  link: ''
+  name: Backend Coding TBD
 
 next_homework: null
 
