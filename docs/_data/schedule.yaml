@@ -744,7 +744,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/13-backend-development.pdf'
     name: 'Backend Coding: Notifications'
   reading:
     link: ''
