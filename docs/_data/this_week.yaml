@@ -6,13 +6,18 @@ last_homework:
   numDays: 12
 
 lectures:
-- date: Wed Oct 15
+- date: Wed Oct 22
   link: ''
-  name: FALL BREAK - No class
-- date: Mon Oct 20
+  name: Backend Coding Discussion
+- date: Mon Oct 27
   link: ''
-  name: Backend Coding TBD
+  name: Testing Lab
 
-next_homework: null
+next_homework:
+  date: Mon Oct 27
+  deadline: Tuesday November 4, 2025 11:59pm
+  link: ''
+  name: Testing Reflection
+  numDays: 7
 
 recitation: null
