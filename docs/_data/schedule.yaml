@@ -928,8 +928,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Backend Coding TBD'
+    link: 'assets/pdfs/14-understanding-backends.pdf'
+    name: 'Understanding Backends'
   reading:
     link: ''
     name: ''
