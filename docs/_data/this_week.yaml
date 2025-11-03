@@ -6,13 +6,18 @@ last_homework:
   numDays: 7
 
 lectures:
-- date: Mon Nov 03
-  link: ''
-  name: Testing TBD
 - date: Wed Nov 05
   link: ''
   name: Testing Discussion
+- date: Mon Nov 10
+  link: ''
+  name: Deployment Lab
 
-next_homework: null
+next_homework:
+  date: Mon Nov 10
+  deadline: November 18, 2025 11:59pm
+  link: ''
+  name: Deployment Reflection
+  numDays: 7
 
 recitation: null
