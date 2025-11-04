@@ -1039,7 +1039,7 @@
 - date: Mon Oct 27
   homework:
     deadline: 'Tuesday November 4, 2025 11:59pm'
-    link: ''
+    link: 'assignments/HW5'
     name: 'Testing Reflection'
     numDays: 7
   lecture:
@@ -1055,7 +1055,7 @@
     slides: ''
   project:
     deadline: 'Friday, October 31, 2025 11:59pm'
-    link: ''
+    link: 'project/p2'
     name: 'P2 Redo'
     numDays: 2
 
@@ -1101,8 +1101,8 @@
     slides: ''
   project:
     deadline: 'Monday November 10, 2025 11:59pm'
-    link: ''
-    name: 'P5: Test Specification'
+    link: 'project/p5'
+    name: 'P5: Testing'
     numDays: 8
 
     
@@ -1159,8 +1159,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Testing TBD'
+    link: 'assets/pdfs/18-tdd-and-ci.pdf'
+    name: 'Testing: Test-Driven Development and Continuous Integration'
   reading:
     link: ''
     name: ''
