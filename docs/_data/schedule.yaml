@@ -1205,7 +1205,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/19-testing-discussion.pdf'
     name: 'Testing Discussion'
   reading:
     link: ''
