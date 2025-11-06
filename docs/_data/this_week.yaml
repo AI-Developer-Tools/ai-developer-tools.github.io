@@ -6,12 +6,12 @@ last_homework:
   numDays: 7
 
 lectures:
-- date: Wed Nov 05
-  link: ''
-  name: Testing Discussion
 - date: Mon Nov 10
   link: ''
   name: Deployment Lab
+- date: Wed Nov 12
+  link: ''
+  name: Deployment TBD
 
 next_homework:
   date: Mon Nov 10
