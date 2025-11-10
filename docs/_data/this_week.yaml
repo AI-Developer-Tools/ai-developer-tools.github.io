@@ -1,23 +1,18 @@
 last_homework:
-  date: Mon Oct 27
-  deadline: Tuesday November 4, 2025 11:59pm
-  link: assignments/HW5
-  name: Testing Reflection
-  numDays: 7
-
-lectures:
-- date: Mon Nov 10
-  link: ''
-  name: Deployment Lab
-- date: Wed Nov 12
-  link: ''
-  name: Deployment TBD
-
-next_homework:
   date: Mon Nov 10
   deadline: November 18, 2025 11:59pm
   link: ''
   name: Deployment Reflection
   numDays: 7
+
+lectures:
+- date: Wed Nov 12
+  link: ''
+  name: Deployment TBD
+- date: Mon Nov 17
+  link: ''
+  name: Guest Lecture - TBD
+
+next_homework: null
 
 recitation: null
