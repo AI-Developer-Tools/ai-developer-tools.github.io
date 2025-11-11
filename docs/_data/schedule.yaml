@@ -1274,8 +1274,8 @@
     name: 'Deployment Reflection'
     numDays: 7
   lecture:
-    link: ''
-    name: 'Deployment Lab'
+    link: 'assets/pdfs/20-deployment.pdf'
+    name: 'Deployment'
   reading:
     link: ''
     name: ''
