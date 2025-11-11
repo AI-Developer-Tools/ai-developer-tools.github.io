@@ -1270,7 +1270,7 @@
 - date: Mon Nov 10
   homework:
     deadline: 'November 18, 2025 11:59pm'
-    link: ''
+    link: 'assignments/HW6'
     name: 'Deployment Reflection'
     numDays: 7
   lecture:
