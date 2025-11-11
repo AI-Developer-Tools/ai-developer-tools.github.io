@@ -8,10 +8,10 @@ last_homework:
 lectures:
 - date: Wed Nov 12
   link: ''
-  name: Deployment TBD
+  name: Deploying a Backend
 - date: Mon Nov 17
   link: ''
-  name: Guest Lecture - TBD
+  name: Monitoring your Deployment
 
 next_homework: null
 
