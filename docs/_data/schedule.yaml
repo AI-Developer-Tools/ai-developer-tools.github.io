@@ -1287,7 +1287,7 @@
   project:
     deadline: 'Wednesday, November 19, 2025 11:59pm'
     link: ''
-    name: 'P6: Deployment + Synthetic Testing'
+    name: 'P6: Deployment'
     numDays: 8
 
 - date: Tue Nov 11
@@ -1321,7 +1321,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Deployment TBD'
+    name: 'Deploying a Backend'
   reading:
     link: ''
     name: ''
@@ -1390,7 +1390,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Guest Lecture - TBD'
+    name: 'Monitoring your Deployment'
   reading:
     link: ''
     name: ''
@@ -1400,10 +1400,10 @@
     quiz: ''
     slides: ''
   project:
-    deadline: 'Monday, November 24, 2025 11:59pm'
+    deadline: ''
     link: ''
-    name: 'P7: Testing with Real Users'
-    numDays: 6
+    name: ''
+    numDays: 0
 
 - date: Tue Nov 18
   homework:
