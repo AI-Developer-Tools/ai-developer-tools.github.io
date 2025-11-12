@@ -1285,10 +1285,10 @@
     quiz: ''
     slides: ''
   project:
-    deadline: 'Wednesday, November 19, 2025 11:59pm'
-    link: ''
+    deadline: 'Friday, November 21, 2025 11:59pm'
+    link: 'project/p6'
     name: 'P6: Deployment'
-    numDays: 8
+    numDays: 10
 
 - date: Tue Nov 11
   homework:
