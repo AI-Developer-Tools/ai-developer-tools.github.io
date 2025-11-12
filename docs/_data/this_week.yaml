@@ -6,12 +6,12 @@ last_homework:
   numDays: 7
 
 lectures:
-- date: Wed Nov 12
-  link: ''
-  name: Deploying a Backend
 - date: Mon Nov 17
   link: ''
   name: Monitoring your Deployment
+- date: Wed Nov 19
+  link: ''
+  name: Deployment Reflection
 
 next_homework: null
 
