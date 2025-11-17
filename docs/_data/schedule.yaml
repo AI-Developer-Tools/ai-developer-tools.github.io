@@ -1320,7 +1320,7 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
+    link: 'assets/pdfs/21-backend-deployment.pdf'
     name: 'Deploying a Backend'
   reading:
     link: ''
