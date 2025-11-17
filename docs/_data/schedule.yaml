@@ -1505,7 +1505,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: ''
+    name: 'Project Checkin'
   reading:
     link: ''
     name: ''
@@ -1515,10 +1515,10 @@
     quiz: ''
     slides: ''
   project:
-    deadline: 'Wednesday, December 3, 2025 11:59pm'
+    deadline: 'Friday, December 5, 2025 11:59pm'
     link: ''
-    name: 'P8: Presentation + Postmortem'
-    numDays: 8
+    name: 'P7: Presentation + Postmortem'
+    numDays: 10
 
 - date: Tue Nov 25
   homework:
@@ -1620,7 +1620,7 @@
     numDays: 0
   lecture:
     link: ''
-    name: 'Class Wrapup'
+    name: 'Class Wrapup + Project Presentations'
   reading:
     link: ''
     name: ''
