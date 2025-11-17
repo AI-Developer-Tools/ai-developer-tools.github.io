@@ -6,9 +6,6 @@ last_homework:
   numDays: 7
 
 lectures:
-- date: Mon Nov 17
-  link: ''
-  name: Monitoring your Deployment
 - date: Wed Nov 19
   link: ''
   name: Deployment Reflection
