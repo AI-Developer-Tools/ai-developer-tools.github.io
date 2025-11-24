@@ -1516,8 +1516,8 @@
     slides: ''
   project:
     deadline: 'Friday, December 5, 2025 11:59pm'
-    link: ''
-    name: 'P7: Presentation + Postmortem'
+    link: 'project/p7'
+    name: 'P7: Final Demo + Postmortem'
     numDays: 10
 
 - date: Tue Nov 25
