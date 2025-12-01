@@ -6,12 +6,9 @@ last_homework:
   numDays: 7
 
 lectures:
-- date: Wed Nov 26
+- date: Wed Dec 03
   link: ''
-  name: DAY BEFORE THANKSGIVING - No class
-- date: Mon Dec 01
-  link: ''
-  name: Class Wrapup + Project Presentations
+  name: Project Presentations
 
 next_homework: null
 
