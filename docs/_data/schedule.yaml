@@ -1389,8 +1389,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Monitoring your Deployment'
+    link: 'assets/pdfs/22-continuous-deployment.pdf'
+    name: 'Continuous Deployment'
   reading:
     link: ''
     name: ''
@@ -1435,8 +1435,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Deployment Reflection'
+    link: 'assets/pdfs/23-discussion-deployment.pdf'
+    name: 'Deployment Discussion'
   reading:
     link: ''
     name: ''
@@ -1504,8 +1504,8 @@
     name: ''
     numDays: 0
   lecture:
-    link: ''
-    name: 'Project Checkin'
+    link: 'assets/pdfs/24-monitoring.pdf'
+    name: 'Monitoring'
   reading:
     link: ''
     name: ''
