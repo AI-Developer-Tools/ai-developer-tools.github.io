@@ -5,10 +5,7 @@ last_homework:
   name: Deployment Reflection
   numDays: 7
 
-lectures:
-- date: Wed Dec 03
-  link: ''
-  name: Project Presentations
+lectures: []
 
 next_homework: null
 
