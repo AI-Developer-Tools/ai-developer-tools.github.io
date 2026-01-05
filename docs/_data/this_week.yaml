@@ -1,12 +1,18 @@
-last_homework:
-  date: Mon Nov 10
-  deadline: November 18, 2025 11:59pm
-  link: assignments/HW6
-  name: Deployment Reflection
+last_homework: null
+
+lectures:
+- date: Mon Aug 25
+  link: assets/pdfs/01-intro-and-vibe-coding-activity.pdf
+  name: Introduction to Vibe Coding
+- date: Wed Aug 27
+  link: assets/pdfs/02-brownfield-vibe-coding-activity.pdf
+  name: Vibe Coding on an Existing Codebase
+
+next_homework:
+  date: Mon Aug 25
+  deadline: Tuesday, September 2, 2025 11:59pm
+  link: assignments/HW1
+  name: Vibe Coding Reflection
   numDays: 7
-
-lectures: []
-
-next_homework: null
 
 recitation: null
