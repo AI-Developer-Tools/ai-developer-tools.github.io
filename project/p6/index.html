@@ -1,0 +1,1510 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../p5/">
+      
+      
+        <link rel="next" href="../p7/">
+      
+      
+      <link rel="icon" href="../../assets/favicon.ico">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.31">
+    
+    
+      
+        <title>Project 6 Deployment - CMU 17-316/616: AI Tools for Software Development</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.3cba04c6.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+<link rel="stylesheet"
+  href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/custom.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="deep-orange">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#project-6-deployment" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="CMU 17-316/616: AI Tools for Software Development" class="md-header__button md-logo" aria-label="CMU 17-316/616: AI Tools for Software Development" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CMU 17-316/616: AI Tools for Software Development
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Project 6 Deployment
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="deep-orange" data-md-color-accent="deep-orange"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="deep-orange" data-md-color-accent="deep-orange"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../.." class="md-tabs__link">
+        
+  
+    
+  
+  Home
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../overview/" class="md-tabs__link">
+        
+  
+    
+  
+  Overview
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../syllabus/" class="md-tabs__link">
+        
+  
+    
+  
+  Syllabus
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../teamwork/" class="md-tabs__link">
+        
+  
+    
+  
+  Teamwork Practices
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../staff/" class="md-tabs__link">
+        
+  
+    
+  
+  Staff
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../assignments/HW1/" class="md-tabs__link">
+          
+  
+    
+  
+  Assignments
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+    
+  
+  
+    
+    
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../p1/" class="md-tabs__link">
+          
+  
+    
+  
+  Project
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="CMU 17-316/616: AI Tools for Software Development" class="md-nav__button md-logo" aria-label="CMU 17-316/616: AI Tools for Software Development" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    CMU 17-316/616: AI Tools for Software Development
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../overview/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Overview
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../syllabus/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Syllabus
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../teamwork/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Teamwork Practices
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../staff/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Staff
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Assignments
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            Assignments
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/HW1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reflection 1
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/HW2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reflection 2
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/HW3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reflection 3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/HW4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reflection 4
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/HW5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reflection 5
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../assignments/HW6/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Reflection 6
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+      
+        
+        
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  <span class="md-ellipsis">
+    Project
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Project
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p1/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 1 Requirements Engineering
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p2/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 2 Development Specifications
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 3 Frontend Development
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p4/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 4 Backend Development
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p5/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 5 Testing
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Project 6 Deployment
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Project 6 Deployment
+  </span>
+  
+
+      </a>
+      
+        
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Goals
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Project Context
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deliverables
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deliverables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-create-an-aws-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Create an AWS account
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-use-aws-lambda-to-run-your-backend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Use AWS Lambda to run your backend code
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Use AWS Lambda to run your backend code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-use-the-aws-console-to-experiment-with-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Use the AWS console to experiment with Lambda
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-package-and-invoke-your-lambda-code-using-the-aws-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Package and invoke your Lambda code using the AWS CLI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-integrate-your-lambda-code-with-the-rest-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Integrate your Lambda code with the REST API
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-use-api-gateway-to-create-a-rest-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Use API Gateway to create a REST API
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-host-your-frontend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Host your frontend code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-integration-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Integration testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-automate-your-integration-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Automate your integration tests
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-adopt-good-github-hygiene" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Adopt good GitHub hygiene
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-use-github-actions-to-automatically-deploy-on-each-push-to-main" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Use Github actions to automatically deploy on each push to main
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Use Github actions to automatically deploy on each push to main">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deploying-backend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying backend code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploying-frontend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying frontend code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-wrap-it-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Wrap it up
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-reflection" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Reflection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#turn-in-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn-in Instructions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../p7/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Project 7 Final Demo + Postmortem
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+<nav class="md-nav md-nav--secondary" aria-label="On This Page">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      On This Page
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#learning-goals" class="md-nav__link">
+    <span class="md-ellipsis">
+      Learning Goals
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#project-context" class="md-nav__link">
+    <span class="md-ellipsis">
+      Project Context
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#deliverables" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deliverables
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Deliverables">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-create-an-aws-account" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Create an AWS account
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-use-aws-lambda-to-run-your-backend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Use AWS Lambda to run your backend code
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Use AWS Lambda to run your backend code">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-use-the-aws-console-to-experiment-with-lambda" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Use the AWS console to experiment with Lambda
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-package-and-invoke-your-lambda-code-using-the-aws-cli" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Package and invoke your Lambda code using the AWS CLI
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-integrate-your-lambda-code-with-the-rest-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Integrate your Lambda code with the REST API
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-use-api-gateway-to-create-a-rest-api" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Use API Gateway to create a REST API
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-host-your-frontend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      4. Host your frontend code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#5-integration-testing" class="md-nav__link">
+    <span class="md-ellipsis">
+      5. Integration testing
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#6-automate-your-integration-tests" class="md-nav__link">
+    <span class="md-ellipsis">
+      6. Automate your integration tests
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#7-adopt-good-github-hygiene" class="md-nav__link">
+    <span class="md-ellipsis">
+      7. Adopt good GitHub hygiene
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#8-use-github-actions-to-automatically-deploy-on-each-push-to-main" class="md-nav__link">
+    <span class="md-ellipsis">
+      8. Use Github actions to automatically deploy on each push to main
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Use Github actions to automatically deploy on each push to main">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#deploying-backend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying backend code
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deploying-frontend-code" class="md-nav__link">
+    <span class="md-ellipsis">
+      Deploying frontend code
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#9-wrap-it-up" class="md-nav__link">
+    <span class="md-ellipsis">
+      9. Wrap it up
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#10-reflection" class="md-nav__link">
+    <span class="md-ellipsis">
+      10. Reflection
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#turn-in-instructions" class="md-nav__link">
+    <span class="md-ellipsis">
+      Turn-in Instructions
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="project-6-deployment">Project 6: Deployment<a class="headerlink" href="#project-6-deployment" title="Permanent link">&para;</a></h1>
+<h2 id="learning-goals">Learning Goals<a class="headerlink" href="#learning-goals" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Learn how to package an application for deployment to the cloud.</li>
+<li>Learn how to deploy a frontend and backend application to Amazon Web Services (AWS)</li>
+<li>Learn how to automate deployment using GitHub continuous deployment.</li>
+</ul>
+<h2 id="project-context">Project Context<a class="headerlink" href="#project-context" title="Permanent link">&para;</a></h2>
+<p>In P1, you defined requirements and user stories. In P2, you expanded some of those stories into detailed development specifications. In P3, you implemented two user stories for the front end of your application. In P4, you implemented two dev specs for the back end of your application. In P5, you wrote unit tests for two core frontend and two core backend files/classes. In P6, you will deploy the frontend and backend of your application to AWS.</p>
+<p>By the end of this sprint, you will set up a publicly visible deployment of your application. You will then automate deployment so that every time you commit code to your repository, GitHub will run the test cases and if successful, will deploy the updated application to AWS. </p>
+<p>Remember to use the LLMs as much as possible to generate your deliverables. You may not modify any generated code directly, only by prompting the LLM. <strong>You should use formalized LLM prompts, such as those we introduced in class.</strong> These will make the LLM output more reliable.</p>
+<hr />
+<h2 id="deliverables">Deliverables<a class="headerlink" href="#deliverables" title="Permanent link">&para;</a></h2>
+<p>You will begin by setting up your AWS account. You will need AWS access for all steps of this project. </p>
+<p>None of the steps in P6 should cost you any money, however the AWS account setup will likely require a credit card to be charged in case you incur any costs. Be assured that whenever we've done this before, we've spent at most 20-30 cents total. If you find that AWS has billed you anywhere near USD $1, immediately turn off any applications you have already deployed and reach out to the instructors for help.</p>
+<p>Next, you will set up your application to run with AWS <a href="https://docs.aws.amazon.com/lambda/latest/dg/welcome.html">Lambda</a>. AWS Lambda lets you run server code without having to deal with actual server machines. It's a "serverless" computing service. You will modify your backend to run on AWS Lambda.</p>
+<p>Your backend should publish its public interfaces via REST API. You will use AWS <a href="https://aws.amazon.com/api-gateway/">API Gateway</a> to expose your public endpoints for web users (or applications) to interact with. </p>
+<p>Next, you will use AWS Amplify to host your frontend application. Amplify will store and serve static web assets, like HTML, CSS, and JS files, that comprise your application frontend.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>If you are building a VS Code Extension, you will <a href="https://code.visualstudio.com/api/working-with-extensions/publishing-extension">deploy</a> your frontend to the VS Code Extension Marketplace. </p>
+</div>
+<p>Now is the time to implement integration tests. These are tests that exercise the frontend to backend (and vice versa) code paths in your app. You will learn to run these integration tests on localhost and in the cloud and run them on every checkin.</p>
+<p>At the end, you will set up GitHub actions to deploy your frontend code to Amplify and your backend code to Lambda after each pull request has been approved.</p>
+<h3 id="1-create-an-aws-account">1. Create an AWS account<a class="headerlink" href="#1-create-an-aws-account" title="Permanent link">&para;</a></h3>
+<p>Go to the <a href="https://console.aws.amazon.com">AWS Console</a> and create an account. If one person on your team already has an AWS account, you can use that one. Log into the AWS Console with your new account.</p>
+<h3 id="2-use-aws-lambda-to-run-your-backend-code">2. Use AWS Lambda to run your backend code<a class="headerlink" href="#2-use-aws-lambda-to-run-your-backend-code" title="Permanent link">&para;</a></h3>
+<p>To use Lambda, you will </p>
+<ul>
+<li>Write (slightly stylized) code that executes functions on certain events (e.g., the invocation of a given REST endpoint)</li>
+<li>Package up your code (i.e., put it all in a ZIP file)</li>
+<li>Upload the packaged code to AWS</li>
+</ul>
+<p>Ask your LLM to modify your backend code so that it executes as a lambda function. Eventually, that lambda function will execute <em>when your REST API's public interface endpoints receive post requests</em>.
+To start with, though, you should become familiar with Lambda, then package up your Lambda code, deploy it, and make sure you can invoke it using the AWS command-line interface (CLI).</p>
+<h4 id="1-use-the-aws-console-to-experiment-with-lambda">1. Use the AWS console to experiment with Lambda<a class="headerlink" href="#1-use-the-aws-console-to-experiment-with-lambda" title="Permanent link">&para;</a></h4>
+<p>Ask your LLM for detailed instructions on how to use AWS Lambda to set up a dummy application that you can invoke. This will help you get familiar with AWS Lambda when you have to set up your own application. If ChatGPT proves unhelpful, read the official <a href="https://docs.aws.amazon.com/lambda/latest/dg/getting-started.html">AWS documentation</a>.</p>
+<h4 id="2-package-and-invoke-your-lambda-code-using-the-aws-cli">2. Package and invoke your Lambda code using the AWS CLI<a class="headerlink" href="#2-package-and-invoke-your-lambda-code-using-the-aws-cli" title="Permanent link">&para;</a></h4>
+<p>Ask your LLM to teach you how to package your Javascript code for deployment on AWS and upload it with the AWS CLI. If ChatGPT is unhelpful, you can read the official <a href="https://docs.aws.amazon.com/lambda/latest/dg/nodejs-package.html#nodejs-package-create-update">AWS documentation</a>. There is some additional documentation in the Lambda section of the official <a href="https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway-tutorial.html#services-apigateway-tutorial-function">AWS API Gateway tutorial</a>. </p>
+<h4 id="3-integrate-your-lambda-code-with-the-rest-api">3. Integrate your Lambda code with the REST API<a class="headerlink" href="#3-integrate-your-lambda-code-with-the-rest-api" title="Permanent link">&para;</a></h4>
+<p>Ask your LLM to teach you how to modify the Lambda code so that it is invoked by requests to your API's public interface functions. If ChatGPT is not helpful, read the Lambda section of the official <a href="https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway-tutorial.html#services-apigateway-tutorial">AWS API Gateway tutorial</a>.</p>
+<h3 id="3-use-api-gateway-to-create-a-rest-api">3. Use API Gateway to create a REST API<a class="headerlink" href="#3-use-api-gateway-to-create-a-rest-api" title="Permanent link">&para;</a></h3>
+<p><a href="https://aws.amazon.com/api-gateway/">AWS API Gateway</a> makes it simple to spin up an API.
+<a href="https://blog.postman.com/what-is-an-api-endpoint/">A web API</a> exposes endpoints that users (or applications) can interact with. You are going to create a <a href="https://www.redhat.com/en/topics/api/what-is-a-rest-api">REST API</a> for the backend of your app that exposes all of your public interfaces functions.</p>
+<p>Ask your LLM to teach you how to create your REST API with AWS API Gateway. If ChatGPT is unhelpful, read through this <a href="https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway-tutorial.html#services-apigateway-tutorial-api">tutorial</a>. </p>
+<p>After setting up AWS API Gateway, locate the API call logic in your frontend code (where it currently calls localhost). Replace the localhost URL with the API Gateway endpoint URL. Note, edit the code carefully to preserve a version of the app that runs locally for easier testing.</p>
+<h3 id="4-host-your-frontend-code">4. Host your frontend code<a class="headerlink" href="#4-host-your-frontend-code" title="Permanent link">&para;</a></h3>
+<p><a href="https://aws.amazon.com/amplify/">AWS Amplify</a> makes it easy to e.g., deploy app frontends and integrate with version control. In this assignment, you will use Amplify to manage deployment of the frontend of your calculator application.</p>
+<p>Your task is to set up Amplify to host the application frontend.</p>
+<p>To complete this part of the assignment, refer to the <a href="https://docs.aws.amazon.com/amplify/latest/userguide/getting-started-next.html">AWS Amplify tutorial</a> for deploying a web application by connecting Amplify to your GitHub repository.</p>
+<p>If you are building a VS Code Extension, do not follow the AWS Amplify directions. Instead, you will  deploy the frontend of your extension to the VS Code Extension Marketplace. To complete this deployment, you will follow these <a href="https://code.visualstudio.com/api/working-with-extensions/publishing-extension">instructions</a>. First, install the vsce command line tool, create an Azure DevOps personal access token, define your team as a publisher, and publish your extension. Make sure to say that the cost of your extension is USD $0.</p>
+<p>Be sure to have your LLM do all this work for you!</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>When this course is over, please remember to unpublish your extension from the VS Code Extension Marketplace. </p>
+</div>
+<h3 id="5-integration-testing">5. Integration testing<a class="headerlink" href="#5-integration-testing" title="Permanent link">&para;</a></h3>
+<p>Ask your LLM to write an English-language test specification for the code pathways that require the execution of frontend and backend code together. Each specification should contain a list of all functionality that needs to be tested, followed by a table of tests. Each row of the table should describe the purpose of the test, the test inputs to the function, and the test output that is expected if the test passes. You must write at least one integration test for every code pathway that spans frontend and backend functionality. </p>
+<p>Generate integration tests for each row of your test specification using your LLM.</p>
+<p>Test out your full app on your local machine first. Run your npm scripts to setup and start the frontend and backend of your application on localhost, then execute the integration tests with your testing framework. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Some integrations tests will fail when run on localhost, but work fine when deployed on the Internet. Please take a note of these and condition their execution to run only when deployed in the desired environment. </p>
+</div>
+<p>Finally, create a new test configuration that uses the URLs of the deployed frontend and backend hosted by the AWS Cloud. Rerun your integration tests on your deployed app and fix any bugs that pop up until the entire app is working as desired.</p>
+<h3 id="6-automate-your-integration-tests">6. Automate your integration tests<a class="headerlink" href="#6-automate-your-integration-tests" title="Permanent link">&para;</a></h3>
+<p>Ask your LLM to create a new GitHub Action that runs your integration tests on every commit. Store the YAML workflow file in the .github/workflows directory. Name it run-integration-tests.yml. It should check out your code, set up the application environment for frontend and backend (e.g., install Node.js if needed), install dependencies, and then execute your tests. </p>
+<ol>
+<li>For CI instructions to run tests with Jest, check out <a href="https://www.dennisokeeffe.com/blog/2021-10-27-jest-with-github-actions">Dennis O'Keefe's blog</a>. </li>
+<li>For CI instructions with VS Code extensions, check out <a href="https://code.visualstudio.com/api/working-with-extensions/continuous-integration">these instructions</a>. </li>
+</ol>
+<p>Check in your YAML file to the GitHub repository.</p>
+<p>Ask your LLM to test out your CI code by making a change to one of the source code files in the frontend and one backend source code file. Commit the change to Git, push to the remote repository, create a pull request on GitHub, and accept the pull request. Finally, go to the GitHub repository on the web and click on the Actions tab on the navigation bar. You'll see all the workflows on the left and workflow runs on the right. If you have a green checkmark next to a workflow run, that means it worked! If there is a red cross, then it did not. Click on the workflow run to see exactly what got executed in GitHub's "terminal window" and find out what went wrong. Fix the problem and try again until each of your two GitHub actions run successfully.</p>
+<h3 id="7-adopt-good-github-hygiene">7. Adopt good GitHub hygiene<a class="headerlink" href="#7-adopt-good-github-hygiene" title="Permanent link">&para;</a></h3>
+<p>Git is a very powerful and flexible version control system. One best practice you will follow is to create a new <em>feature</em> branch whenever you start working on a new coding task. <em>Never</em> work directly on the main branch. When your feature is done and your CI GitHub Actions (unit tests and integration tests) have passed their tests, create a pull request on GitHub to push the changes from the feature branch to main. </p>
+<p>As configured by default, anyone with access to your repo can push whatever garbage they want to the main branch. That's not good! It's important to make sure code that actually gets deployed has been thoroughly tested and reviewed (to catch everything from mistakes to intentional back doors!). In this assignment, you must block merges to main until your code is reviewed and passes CI.</p>
+<p>To protect your main branch, navigate to the Settings tab in your GitHub repo and click on Branches (on the lefthand side). You'll see two options: (1) Add branch ruleset and (2) Add classic branch protection rule. Add a classic branch protection rule that protects main from direct, unreviewed commits: first check the box to require a pull request before merging and second check the box to require status checks to pass before merging. Select your CI testing workflows here as the relevant status checks. Finally,  </p>
+<h3 id="8-use-github-actions-to-automatically-deploy-on-each-push-to-main">8. Use Github actions to automatically deploy on each push to main<a class="headerlink" href="#8-use-github-actions-to-automatically-deploy-on-each-push-to-main" title="Permanent link">&para;</a></h3>
+<p>After getting hands on experience with each service, you will use a Github action to deploy updates automatically on each push to your main branch.</p>
+<p>The CD pipeline will perform the following tasks:</p>
+<ul>
+<li>Deploy the packaged backend Lambda code.</li>
+<li>Redeploy the frontend (to Amplify or the VS Code Extension Marketplace). </li>
+</ul>
+<p>In order to do this, you will need to allow Github to authenticate to AWS.
+Follow the <a href="https://docs.github.com/en/actions/security-for-github-actions/security-guides/using-secrets-in-github-actions">Github documentation</a> to safely use your AWS secrets in CD. This <a href="https://aws.amazon.com/blogs/compute/using-github-actions-to-deploy-serverless-applications/">AWS blog post</a> describes some (basic) best practices for generating and handling AWS authentication secrets in CI; navigate to the "Configuring AWS credentials in GitHub" section of the tutorial.</p>
+<h4 id="deploying-backend-code">Deploying backend code<a class="headerlink" href="#deploying-backend-code" title="Permanent link">&para;</a></h4>
+<p>Your LLM should create a <a href="https://docs.github.com/en/actions/writing-workflows">Github workflow</a> named deploy-aws-lambda.yml that takes the follow steps:</p>
+<ul>
+<li>Checks out the code, sets up Node, and installs dependencies.</li>
+<li>Packages the code for lambda deployment.</li>
+<li>Uses the AWS CLI to update the lambda code (giving the CLI access to your authentication secret and AWS region through the environment).</li>
+</ul>
+<h4 id="deploying-frontend-code">Deploying frontend code<a class="headerlink" href="#deploying-frontend-code" title="Permanent link">&para;</a></h4>
+<p>Your LLM should create a Github workflow named deploy-aws-amplify.yml that takes the following steps:</p>
+<ul>
+<li>Checks out the code, sets up Node, and builds the code.</li>
+<li>Triggers AWS Amplify to redeploy the latest frontend version from your repository. See the <a href="https://docs.aws.amazon.com/amplify/latest/userguide/setting-up-GitHub-access.html">AWS documentation</a> for more. </li>
+</ul>
+<p>If you are publishing a VS Code Extension, your workflow will be named deploy-extension.yml. It should simply package up your extension and publish it to the marketplace. </p>
+<h3 id="9-wrap-it-up">9. Wrap it up<a class="headerlink" href="#9-wrap-it-up" title="Permanent link">&para;</a></h3>
+<p>Edit the README.md file for your project.</p>
+<ol>
+<li>Provide instructions for web users of your app to run your application.</li>
+<li>Provide all the instructions needed for a random person on the Internet who forks your codebase to set up AWS to deploy your application.</li>
+</ol>
+<h3 id="10-reflection">10. Reflection<a class="headerlink" href="#10-reflection" title="Permanent link">&para;</a></h3>
+<p>Without your LLM, write a 500-word (i.e., one-page) reflection on:</p>
+<ol>
+<li>How effective was the LLM in helping you understand how to deploy your app? What did you like about it? What was wrong with it? How many times did you have to change your prompt to get it to explain the information in a way you could understand?</li>
+<li>How difficult was it to change habits and stop committing directly to main? Did you have to ask your team to change their practices to ensure minimal delays for accepting your pull requests? How do you feel about this feature branch practice? What are the pros and cons?</li>
+</ol>
+<hr />
+<h2 id="turn-in-instructions">Turn-in Instructions<a class="headerlink" href="#turn-in-instructions" title="Permanent link">&para;</a></h2>
+<p>Please turn in a single document that contains these parts:  </p>
+<ol>
+<li>Deploy your app. Keep it deployed until the instructors let you know that they've checked this part out.<ol>
+<li>Provide a link to your Amplify frontend deployment or VS Code Extension Marketplace extension URL.</li>
+<li>Provide a link to your Lambda backend REST function. </li>
+</ol>
+</li>
+<li>The integration test specification.</li>
+<li>Provide a Git repository link to the test code files that implement your integration test specs.</li>
+<li>Copy-paste in the test output from running your integration tests on localhost.</li>
+<li>Copy-paste in the test output from running your integration tests in the cloud.</li>
+<li>Provide a Git repository link to your run-integration-tests.yml file.</li>
+<li>Provide a Git repository link to your deploy-aws-amplify.yml file (or deploy-extension.yml as appropriate).</li>
+<li>Provide a Git repository link to your deploy-aws-lambda.yml file.</li>
+<li>Provide a link to your project's README in GitHub.</li>
+<li>A 1-page reflection as in the <a href="#10-reflection">Reflection</a> section.</li>
+<li>Copy-paste logs of all LLM interactions you used during this sprint. Identify the name and version of the LLM used.</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+  Back to top
+</button>
+        
+      </main>
+      
+<footer class="md-footer">
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tracking", "navigation.indexes", "announce.dismiss"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>
