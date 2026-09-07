@@ -1,0 +1,18 @@
+last_homework:
+  date: Mon Aug 25
+  deadline: Tuesday, September 2, 2025 11:59pm
+  link: assignments/HW1
+  name: Vibe Coding Reflection
+  numDays: 7
+
+lectures:
+- date: Mon Sep 01
+  link: ''
+  name: LABOR DAY - No Class
+- date: Wed Sep 03
+  link: assets/pdfs/03-discussion-vibe-coding.pdf
+  name: Vibe Coding Discussion
+
+next_homework: null
+
+recitation: null
