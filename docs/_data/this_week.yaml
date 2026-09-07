@@ -6,13 +6,18 @@ last_homework:
   numDays: 7
 
 lectures:
-- date: Mon Sep 01
-  link: ''
-  name: LABOR DAY - No Class
-- date: Wed Sep 03
-  link: assets/pdfs/03-discussion-vibe-coding.pdf
-  name: Vibe Coding Discussion
+- date: Mon Sep 08
+  link: assets/pdfs/04-user-discovery.pdf
+  name: User Discovery Lab
+- date: Wed Sep 10
+  link: assets/pdfs/05-user-stories.pdf
+  name: Creating Effective User Stories
 
-next_homework: null
+next_homework:
+  date: Wed Sep 10
+  deadline: Wednesday, September 17, 2025 11:59pm
+  link: project/p1
+  name: 'P1: Requirements Engineering'
+  numDays: 5
 
 recitation: null
