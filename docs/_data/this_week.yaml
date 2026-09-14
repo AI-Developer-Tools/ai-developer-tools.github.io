@@ -1,23 +1,21 @@
 last_homework:
-  date: Mon Aug 25
-  deadline: Tuesday, September 2, 2025 11:59pm
-  link: assignments/HW1
-  name: Vibe Coding Reflection
-  numDays: 7
-
-lectures:
-- date: Mon Sep 08
-  link: assets/pdfs/04-user-discovery.pdf
-  name: User Discovery Lab
-- date: Wed Sep 10
-  link: assets/pdfs/05-user-stories.pdf
-  name: Creating Effective User Stories
-
-next_homework:
   date: Wed Sep 10
   deadline: Wednesday, September 17, 2025 11:59pm
   link: project/p1
   name: 'P1: Requirements Engineering'
   numDays: 5
+
+lectures:
+- date: Mon Sep 15
+  link: assets/pdfs/06-development-specs.pdf
+  name: Creating Dev Specs
+  reading:
+    link: assets/pdfs/dev-spec-guidelines.pdf
+    name: Development Spec Guidelines
+- date: Wed Sep 17
+  link: assets/pdfs/07-requirements-engineering-discussion.pdf
+  name: Requirements Engineering Reflection
+
+next_homework: null
 
 recitation: null
