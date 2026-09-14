@@ -1,0 +1,17 @@
+- name: Canvas
+  link: https://canvas.cmu.edu/courses/49386
+  icon: assets/images/logos/canvas.png
+
+- name: Slack
+  link: https://aidevelopertools.slack.com/
+  icon: assets/images/logos/slack.png
+
+- name: Gradescope
+  link: https://www.gradescope.com/courses/1088015
+  icon: assets/images/logos/gradescope.png
+
+#- name: GitHub
+#  link: https://classroom.github.com/classrooms/34176362-17356-software-engineering-for-startups-spring2024
+#  icon: assets/images/logos/github-mark.png
+
+
