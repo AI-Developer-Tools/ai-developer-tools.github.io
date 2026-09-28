@@ -1,23 +1,22 @@
 last_homework:
-  date: Wed Sep 10
-  deadline: Wednesday, September 17, 2025 11:59pm
-  link: project/p1
-  name: 'P1: Requirements Engineering'
-  numDays: 5
-
-lectures:
-- date: Mon Sep 22
-  link: assets/pdfs/08-front-end-dev.pdf
-  name: Front End Development
-- date: Wed Sep 24
-  link: assets/pdfs/09-front-end-dev.pdf
-  name: Creating the Front End UI Code
-
-next_homework:
   date: Mon Sep 22
   deadline: Tuesday September 30, 2025 11:59pm
   link: assignments/HW3
   name: Frontend Coding Reflection
   numDays: 6
+
+lectures:
+- date: Mon Sep 29
+  link: assets/pdfs/10-activating-the-ui.pdf
+  name: Creating UI Behaviors
+  reading:
+    link: https://arxiv.org/abs/2509.12491
+    name: 'Research Paper: Good Vibrations? A Qualitative Study of Co-Creation, Communication,
+      Flow, and Trust in Vibe Coding'
+- date: Wed Oct 01
+  link: ''
+  name: Class Canceled
+
+next_homework: null
 
 recitation: null
