@@ -6,17 +6,18 @@ last_homework:
   numDays: 6
 
 lectures:
-- date: Mon Sep 29
-  link: assets/pdfs/10-activating-the-ui.pdf
-  name: Creating UI Behaviors
-  reading:
-    link: https://arxiv.org/abs/2509.12491
-    name: 'Research Paper: Good Vibrations? A Qualitative Study of Co-Creation, Communication,
-      Flow, and Trust in Vibe Coding'
-- date: Wed Oct 01
-  link: ''
-  name: Class Canceled
+- date: Mon Oct 06
+  link: assets/pdfs/12-backend-development.pdf
+  name: Backend Coding Lab
+- date: Wed Oct 08
+  link: assets/pdfs/13-backend-development.pdf
+  name: 'Backend Coding: Notifications'
 
-next_homework: null
+next_homework:
+  date: Mon Oct 06
+  deadline: Tuesday October 21, 2025 11:59pm
+  link: assignments/HW4
+  name: Backend Coding Reflection
+  numDays: 12
 
 recitation: null
