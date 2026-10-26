@@ -1,0 +1,18 @@
+last_homework:
+  date: Mon Oct 06
+  deadline: Tuesday October 21, 2025 11:59pm
+  link: assignments/HW4
+  name: Backend Coding Reflection
+  numDays: 12
+
+lectures:
+- date: Mon Oct 20
+  link: assets/pdfs/14-understanding-backends.pdf
+  name: Understanding Backends
+- date: Wed Oct 22
+  link: assets/pdfs/16-discussion-backend.pdf
+  name: Backend Coding Discussion
+
+next_homework: null
+
+recitation: null
