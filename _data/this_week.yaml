@@ -1,0 +1,18 @@
+last_homework:
+  date: Mon Oct 27
+  deadline: Tuesday November 4, 2025 11:59pm
+  link: assignments/HW5
+  name: Testing Reflection
+  numDays: 7
+
+lectures:
+- date: Mon Nov 03
+  link: assets/pdfs/18-tdd-and-ci.pdf
+  name: 'Testing: Test-Driven Development and Continuous Integration'
+- date: Wed Nov 05
+  link: assets/pdfs/19-testing-discussion.pdf
+  name: Testing Discussion
+
+next_homework: null
+
+recitation: null
